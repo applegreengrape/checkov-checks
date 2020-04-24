@@ -22,7 +22,7 @@ setuptools.setup(
         "tabulate==0.8.6",
         "termcolor==1.1.0",
         "urllib3==1.25.7",
-        "dpath==1.5.0"
+        "dpath==1.5.0",
     ],
     name="pre-commit",
     description="Rewrite Terraform configuration files to a canonical format"
@@ -42,7 +42,6 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(exclude="tests"),
     setup_requires=["pytest-runner"],
-    install_requires=['future;python_version<"3.0"'],
     tests_require=["pytest", "pytest-datafiles", "pytest-pylint"],
     entry_points={
         "console_scripts": [
