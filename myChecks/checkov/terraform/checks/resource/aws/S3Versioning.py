@@ -4,7 +4,7 @@ from myChecks.checkov.common.models.enums import CheckCategories
 
 class S3Versioning(BaseResourceValueCheck):
     def __init__(self):
-        name = "Ensure all data stored in the S3 bucket have versioning enabled"
+        name = "Hello 👋 from a customized checkov check for s3 versioning"
         id = "CKV_AWS_21"
         supported_resources = ['aws_s3_bucket']
         categories = [CheckCategories.BACKUP_AND_RECOVERY]
