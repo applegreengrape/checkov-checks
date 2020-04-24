@@ -2,7 +2,7 @@
 - id: myChecks
   name: myChecks
   description: runs myChecks over a project, cross platform compatible
-  entry: bash -c 'pwd && ls -la ./*'
+  entry: myChecks
   language: python
   language_version: python3.7
   always_run: true
