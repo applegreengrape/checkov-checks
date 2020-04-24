@@ -28,9 +28,4 @@ setuptools.setup(
     setup_requires=["pytest-runner"],
     install_requires=['future;python_version<"3.0"'],
     tests_require=["pytest", "pytest-datafiles", "pytest-pylint"],
-    entry_points={
-        "console_scripts": [
-            "myChecks= myChecks.main:main",
-        ]
-    },
 )
