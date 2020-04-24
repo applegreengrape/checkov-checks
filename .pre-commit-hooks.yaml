@@ -1,11 +1,12 @@
 ---
 - id: myChecks
   name: myChecks
-  description: This hook runs checkov.
-  entry: hooks/run.sh
-  language: script
-  pass_filenames: true
+  description: runs checkov over a project, cross platform compatible
+  entry: myChecks
+  language: python
+  language_version: python3.7
+  files: (\.tf)$
+  exclude: \.terraform\/.*$
   always_run: false
-  files: \.tf$
-  exclude: \.+.terraform\/.*$
-  require_serial: true
+  pass_filenames: false
+  verbose: true
