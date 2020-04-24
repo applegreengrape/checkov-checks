@@ -15,10 +15,7 @@ class S3Versioning(BaseResourceCheck):
             versioning_block = conf['versioning'][0]
             if versioning_block['enabled'][0]:
                 return CheckResult.SUCCESS
+        print(CheckResult)
         return CheckResult.FAILURE
 
-def main():
-    scanner = S3Versioning()
-
-if __name__ == "__main__":
-    exit(main())
+scanner = S3Versioning()
