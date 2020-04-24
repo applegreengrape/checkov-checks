@@ -4,7 +4,7 @@
   description: runs myChecks over a project, cross platform compatible
   entry: myChecks
   language: python
-  language_version: python3.8
+  language_version: python3.7
   files: (\.tf)$
   exclude: \.terraform\/.*$
   always_run: true
