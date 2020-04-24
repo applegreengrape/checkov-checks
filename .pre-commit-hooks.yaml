@@ -2,7 +2,7 @@
 - id: myChecks
   name: myChecks
   description: runs myChecks over a project, cross platform compatible
-  entry: python --version
+  entry: python ./myChecks/main.py -d .
   language: python
   language_version: python3.7
   files: (\.tf)$
