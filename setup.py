@@ -30,7 +30,7 @@ setuptools.setup(
     tests_require=["pytest", "pytest-datafiles", "pytest-pylint"],
     entry_points={
         "console_scripts": [
-            "checkov-s3 = checkov.invoke:main",
+            "myChecks= myChecks.main:main",
         ]
     },
 )
