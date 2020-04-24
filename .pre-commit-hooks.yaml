@@ -1,0 +1,14 @@
+---
+- id: checkov-s3
+  name: checkov-s3
+  description: runs checkov-s3 over a project, cross platform compatible
+  entry: checkov-s3
+  language: python
+  language_version: python3.7
+  files: (\.tf)$
+  exclude: \.terraform\/.*$
+  always_run: false
+  pass_filenames: false
+  verbose: true
+  additional_dependencies: ['checkov']
+
