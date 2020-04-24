@@ -8,6 +8,22 @@ import setuptools
 
 
 setuptools.setup(
+    install_requires=[
+        "chardet==3.0.4",
+        "colorama==0.4.3",
+        "docopt==0.6.2",
+        "idna==2.8",
+        "junit-xml==1.8",
+        "lark-parser==0.7.8",
+        "python-hcl2==0.2.5",
+        "pyyaml==5.2",
+        "requests==2.22.0",
+        "six==1.13.0",
+        "tabulate==0.8.6",
+        "termcolor==1.1.0",
+        "urllib3==1.25.7",
+        "dpath==1.5.0"
+    ],
     name="pre-commit",
     description="Rewrite Terraform configuration files to a canonical format"
     "and style",
