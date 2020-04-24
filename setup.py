@@ -30,7 +30,7 @@ setuptools.setup(
     tests_require=["pytest", "pytest-datafiles", "pytest-pylint"],
     entry_points={
         "console_scripts": [
-            "myChecks = myChecks.main:main",
+            "myChecks = myChecks.run:run",
         ]
     },
 )
