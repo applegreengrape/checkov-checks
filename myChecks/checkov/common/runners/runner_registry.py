@@ -37,3 +37,8 @@ class RunnerRegistry(object):
             exit_codes.append(report.get_exit_code(args.soft_fail))
         exit_code = 1 if 1 in exit_codes else 0
         exit(exit_code)
+    
+    @staticmethod
+    def print_reports_default(scan_reports):
+        for report in scan_reports:
+            report.print_console()
