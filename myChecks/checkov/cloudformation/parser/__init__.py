@@ -6,7 +6,7 @@ except ImportError:
     JSONDecodeError = ValueError
 from yaml.parser import ParserError, ScannerError
 from yaml import YAMLError
-from checkov.cloudformation.parser import cfn_yaml, cfn_json
+from myChecks.checkov.cloudformation.parser import cfn_yaml, cfn_json
 
 LOGGER = logging.getLogger(__name__)
 

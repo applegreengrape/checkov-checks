@@ -2,10 +2,10 @@
 
 from tabulate import tabulate
 
-from checkov.terraform.checks.data.registry import data_registry
-from checkov.terraform.checks.resource.registry import resource_registry
-from checkov.terraform.checks.provider.registry import provider_registry
-from checkov.cloudformation.checks.resource.registry import resource_registry as cfn_registry
+from myChecks.checkov.terraform.checks.data.registry import data_registry
+from myChecks.checkov.terraform.checks.resource.registry import resource_registry
+from myChecks.checkov.terraform.checks.provider.registry import provider_registry
+from myChecks.checkov.cloudformation.checks.resource.registry import resource_registry as cfn_registry
 
 def print_checks():
     printable_checks_list = get_checks()

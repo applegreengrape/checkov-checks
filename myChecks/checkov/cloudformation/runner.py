@@ -1,10 +1,10 @@
 import logging
 import os
 
-from checkov.cloudformation.checks.resource.registry import resource_registry
-from checkov.common.output.record import Record
-from checkov.common.output.report import Report
-from checkov.cloudformation.parser import parse
+from myChecks.checkov.cloudformation.checks.resource.registry import resource_registry
+from myChecks.checkov.common.output.record import Record
+from myChecks.checkov.common.output.report import Report
+from myChecks.checkov.cloudformation.parser import parse
 
 from functools import reduce
 import operator

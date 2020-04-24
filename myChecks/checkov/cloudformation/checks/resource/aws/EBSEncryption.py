@@ -1,5 +1,5 @@
-from checkov.common.models.enums import CheckResult, CheckCategories
-from checkov.cloudformation.checks.resource.base_resource_check import BaseResourceCheck
+from myChecks.checkov.common.models.enums import CheckResult, CheckCategories
+from myChecks.checkov.cloudformation.checks.resource.base_resource_check import BaseResourceCheck
 
 
 class EBSEncryption(BaseResourceCheck):

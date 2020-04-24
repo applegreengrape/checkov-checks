@@ -1,1 +1,1 @@
-from checkov.cloudformation.checks.resource.aws import *
+from myChecks.checkov.cloudformation.checks.resource.aws import *

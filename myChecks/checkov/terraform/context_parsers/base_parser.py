@@ -2,13 +2,13 @@ import logging
 import re
 import dpath.util
 from abc import ABC, abstractmethod
-from checkov.terraform.context_parsers.registry import parser_registry
-from checkov.common.models.enums import ContextCategories
+from myChecks.checkov.terraform.context_parsers.registry import parser_registry
+from myChecks.checkov.common.models.enums import ContextCategories
 from itertools import islice
 
 OPEN_CURLY = '{'
 CLOSE_CURLY = '}'
-COMMENT_REGEX = re.compile(r'(checkov:skip=) *([A-Z_\d]+)(:[^\n]+)?')
+COMMENT_REGEX = re.compile(r'(myChecks.checkov:skip=) *([A-Z_\d]+)(:[^\n]+)?')
 
 
 class BaseContextParser(ABC):
@@ -62,7 +62,7 @@ class BaseContextParser(ABC):
 
     def _collect_skip_comments(self, definition_blocks):
         """
-        Collects checkov skip comments to all definition blocks
+        Collects myChecks.checkov skip comments to all definition blocks
         :param definition_blocks: parsed definition blocks
         :return: context enriched with with skipped checks per skipped entity
         """

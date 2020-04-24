@@ -1,4 +1,4 @@
-from checkov.terraform.context_parsers.base_parser import BaseContextParser
+from myChecks.checkov.terraform.context_parsers.base_parser import BaseContextParser
 
 
 class ProviderContextParser(BaseContextParser):

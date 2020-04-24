@@ -1,4 +1,4 @@
-from checkov.version import version
+from myChecks.checkov.version import version
 
 banner = """
        _               _              

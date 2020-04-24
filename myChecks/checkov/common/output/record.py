@@ -3,7 +3,7 @@ import re
 from colorama import init, Fore
 from termcolor import colored
 
-from checkov.common.models.enums import CheckResult
+from myChecks.checkov.common.models.enums import CheckResult
 
 init(autoreset=True)
 

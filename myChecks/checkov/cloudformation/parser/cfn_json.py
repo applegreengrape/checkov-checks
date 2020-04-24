@@ -8,7 +8,7 @@ import sys
 from json.decoder import WHITESPACE, WHITESPACE_STR, BACKSLASH, STRINGCHUNK
 from json.scanner import NUMBER_RE
 
-from checkov.cloudformation.parser.node import str_node, dict_node, list_node
+from myChecks.checkov.cloudformation.parser.node import str_node, dict_node, list_node
 
 LOGGER = logging.getLogger(__name__)
 

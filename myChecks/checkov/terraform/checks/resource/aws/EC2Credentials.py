@@ -1,8 +1,8 @@
 import re
 
-from checkov.common.models.enums import CheckResult, CheckCategories
-from checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
-from checkov.terraform.checks.utils.consts import access_key_pattern, secret_key_pattern
+from myChecks.checkov.common.models.enums import CheckResult, CheckCategories
+from myChecks.checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
+from myChecks.checkov.terraform.checks.utils.consts import access_key_pattern, secret_key_pattern
 
 
 class EC2Credentials(BaseResourceCheck):

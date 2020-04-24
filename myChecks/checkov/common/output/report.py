@@ -4,8 +4,8 @@ from colorama import init
 from junit_xml import TestCase, TestSuite
 from termcolor import colored
 
-from checkov.common.models.enums import CheckResult
-from checkov.version import version
+from myChecks.checkov.common.models.enums import CheckResult
+from myChecks.checkov.version import version
 
 init(autoreset=True)
 
@@ -41,7 +41,7 @@ class Report:
             "failed": len(self.failed_checks),
             "skipped": len(self.skipped_checks),
             "parsing_errors": len(self.parsing_errors),
-            "checkov_version": version
+            "myChecks.checkov_version": version
         }
 
     def get_json(self):

@@ -1,7 +1,7 @@
 from abc import abstractmethod
 
-from checkov.terraform.checks.provider.registry import provider_registry
-from checkov.common.checks.base_check import BaseCheck
+from myChecks.checkov.terraform.checks.provider.registry import provider_registry
+from myChecks.checkov.common.checks.base_check import BaseCheck
 
 
 class BaseProviderCheck(BaseCheck):

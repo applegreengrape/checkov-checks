@@ -1,4 +1,4 @@
-from checkov.terraform.evaluation.base_variable_evaluation import BaseVariableEvaluation
+from myChecks.checkov.terraform.evaluation.base_variable_evaluation import BaseVariableEvaluation
 import os
 import dpath
 import re

@@ -1,5 +1,5 @@
-from checkov.terraform.checks.resource.base_resource_value_check import BaseResourceValueCheck
-from checkov.common.models.enums import CheckCategories
+from myChecks.checkov.terraform.checks.resource.base_resource_value_check import BaseResourceValueCheck
+from myChecks.checkov.common.models.enums import CheckCategories
 
 
 class KMSRotation(BaseResourceValueCheck):

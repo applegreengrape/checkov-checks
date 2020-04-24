@@ -1,7 +1,7 @@
 import logging
 from abc import ABC, abstractmethod
 
-from checkov.common.models.enums import CheckResult
+from myChecks.checkov.common.models.enums import CheckResult
 
 
 class BaseCheck(ABC):

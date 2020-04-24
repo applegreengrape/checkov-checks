@@ -1,1 +1,1 @@
-from checkov.terraform.checks.data.aws import *
+from myChecks.checkov.terraform.checks.data.aws import *

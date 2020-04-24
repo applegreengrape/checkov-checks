@@ -1,2 +1,2 @@
-from checkov.terraform.checks.resource import *
-from checkov.terraform.checks.data import *
+from myChecks.checkov.terraform.checks.resource import *
+from myChecks.checkov.terraform.checks.data import *

@@ -1,3 +1,3 @@
-from checkov.terraform.checks.provider.base_registry import Registry
+from myChecks.checkov.terraform.checks.provider.base_registry import Registry
 
 provider_registry = Registry()

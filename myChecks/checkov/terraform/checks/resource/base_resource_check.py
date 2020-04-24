@@ -1,7 +1,7 @@
 from abc import abstractmethod
 
-from checkov.common.checks.base_check import BaseCheck
-from checkov.terraform.checks.resource.registry import resource_registry
+from myChecks.checkov.common.checks.base_check import BaseCheck
+from myChecks.checkov.terraform.checks.resource.registry import resource_registry
 
 
 class BaseResourceCheck(BaseCheck):

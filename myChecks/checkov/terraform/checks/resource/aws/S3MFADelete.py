@@ -1,5 +1,5 @@
-from checkov.common.models.enums import CheckCategories, CheckResult
-from checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
+from myChecks.checkov.common.models.enums import CheckCategories, CheckResult
+from myChecks.checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
 
 
 class S3MFADelete(BaseResourceCheck):
