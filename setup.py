@@ -16,7 +16,7 @@ setuptools.setup(
         "junit-xml==1.8",
         "lark-parser==0.7.8",
         "python-hcl2==0.2.5",
-        "pyyaml==5.2",
+        "pyyaml==5.4",
         "requests==2.22.0",
         "six==1.13.0",
         "tabulate==0.8.6",
