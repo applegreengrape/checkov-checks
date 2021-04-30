@@ -21,7 +21,7 @@ setuptools.setup(
         "six==1.13.0",
         "tabulate==0.8.6",
         "termcolor==1.1.0",
-        "urllib3==1.25.7",
+        "urllib3==1.25.8",
         "dpath==1.5.0",
     ],
     name="pre-commit",
